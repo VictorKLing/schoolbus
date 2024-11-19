@@ -1,0 +1,340 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schoolbus</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+      <section id="popup" class="px-5 lg:px-0 fixed min-h-screen w-screen z-50 flex items-center justify-center bg-[rgba(172,168,168,0.35)] shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-[13.5px] rounded-[10px] border border-[rgba(255,255,255,0.18)]">
+        <div id="popup-content" class="relative max-w-[712px] bg-white flex justify-center py-[52px] px-10 rounded-3xl">
+          <div class="flex flex-col lg:flex-row gap-4">
+            <div class="w-full lg:w-[55%] mx-auto">
+              <h2 class="text-[#E54500] text-3xl text-[26px] font-black leading-[42px]">Olá, eu sou o <span class="text-[#0069AC]">Tubias</span>!<br>A mascote dos TUB.</h2>
+              <p class="font-bold pt-[30px] hidden lg:block">
+                A minha missão é melhorar a tua experiência de viagem.<br><br>Para isso podes contar com os meus <span class="text-[#E54500]">4 superpoderes</span>: Sustentabilidade, Segurança, Mobilidade e Sabedoria.
+              </p>
+              <h2 class="text-[#0069AC] pt-10 text-3xl font-black leading-[56px] hidden lg:block">Vamos viajar juntos?</h2>
+            </div>
+            <div class=" lg:w-[45%] mx-auto">
+              <img class="transform scale-x-[-1]" src="./assets/img/brand/Tubias.svg" alt="">
+            </div>
+            <p class="font-bold pt-[30px] block lg:hidden">
+              A minha missão é melhorar a tua experiência de viagem.<br><br>Para isso podes contar com os meus <span class="text-[#E54500]">4 superpoderes</span>: Sustentabilidade, Segurança, Mobilidade e Sabedoria.
+            </p>
+            <h2 class="text-[#0069AC] pt-[30px] text-3xl font-black leading-[56px] block lg:hidden">Vamos viajar juntos?</h2>
+          </div>
+          <button id="close-popup" class="absolute top-[30px] right-[30px]">
+            <img src="./img/icons/Fechar.svg" alt="">
+          </button>
+        </div>
+      </section>
+      <section class="overflow-x-hidden">
+          <div class="relative">
+            <img class="absolute top-[-110px] left-[-180px]" src="./assets/img/details/Rabisco03.png" alt="">
+            <img class="absolute right-[-110px] top-[-180px]" src="./assets/img/details/Rabisco04.png" alt="">
+          </div>
+          <div class="container-box pt-[256px] lg:pt-40">
+            <div class="flex justify-center ">
+              <div class=" img-logo relative">
+                <img class="" src="./assets/img/brand/Logo.svg" alt="">
+              </div>
+            </div>
+          </div>
+      </section>
+      <section class="overflow-x-hidden overflow-y-hidden">
+        <div class="relative hidden lg:block">
+          <img class=" absolute right-[-80px] top-[30px]" src="./assets/img/details/Rabisco02.png" alt="">
+        </div>
+        <div class="container-box mt-7 lg:mt-[-60px]">
+          <div class="flex flex-col items-center lg:flex-row lg:gap-[194px]">
+            <div class="lg:w-1/2">
+              <img src="./assets/img/brand/Tubias.svg" alt="">
+            </div>
+            <div class="w-full lg:w-1/2 lg:pt-[260px]">
+              <div>
+                <h1 class="pt-[60px] lg:pt-0 text-[#0069AC] text-[26px] lg:text-3xl font-black lg:leading-[56px]">A <span class="text-[#E54500]">BOLEIA </span>DO TEU<br>REGRESSO ÀS AULAS.</h1>
+                <p class="text-[#0069AC] pt-10 lg:pt-14">
+                  Informamos que <span class="text-[#E54500] font-bold">não</span> é necessária a inscrição no programa<br><span class="text-[#E54500] font-bold">School Bus.</span>
+                </p>
+                <p class="pt-4">
+                  No entanto, todos os estudantes terão de,<br><span class="text-[#E54500] font-bold">obrigatoriamente</span>, ser portadores de um <span class="text-[#E54500] font-bold">passe</span> e <span class="text-[#E54500] font-bold">validado</span><br>em cada viagem.
+                </p>
+                <h2 class="font-black lg:font-bold pt-[60px] lg:pt-[46px] pb-5">
+                  SOLICITAR PASSE PELA 1ª VEZ
+                </h2>
+                <a class="bg-[#E54400] text-white px-10 py-4 rounded-full inline-block text-xs tracking-[.1rem] " href="">SOLICITAR</a>
+                <div class="relative">
+                  <img class="absolute w-[300px] right-[-90px] top-[-160px] block lg:hidden" src="./assets/img/details/Rabisco02.png" alt="">
+                  <h2 class="font-black lg:font-bold pt-[46px] pb-5">
+                    RENOVAÇÃO EM
+                  </h2>
+                </div>
+                
+                <P class="text-[#E54500] font-bold">Postos de Venda TUB</P>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="overflow-x-hidden">
+        <div class="relative w-full hidden lg:block">
+          <img class="absolute  right-[-120px] top-[30px]" src="./assets/img/details/Rabisco01.png" alt="">
+        </div>
+        <div class="container-box pt-[60px] lg:pt-[68px]">
+          <div class="flex flex-col lg:flex-row lg:flex-rpx gap-0 lg:gap-[194px]">
+            <div class="w-full lg:w-1/2">
+              <h1 class="text-[40px] lg:text-[60px] font-black relative after:content-[''] after:bg-[url('./assets/img/details/Linha.png')] after:bg-no-repeat after:w-full after:h-4 after:block after:absolute after:bottom-[-26px]">PROJETO</h1>
+              <p class="pt-[66px] w-full lg:max-w-[440px]">O Município de Braga e os TUB - Transportes Urbanos de Braga voltam a promover o ‘School Bus’ no ano lectivo 2024/2025.<br><br>O "School Bus" foi implementado com o objectivo de reduzir o congestionamento automóvel no perímetro das escolas da malha urbana da Cidade, reduzir os níveis de sinistralidade, incentivar a autonomia e responsabilidade das crianças, a definição de espaços mais inclusivos e seguros, bem como o incremento da qualidade de vida da população.</p>
+            </div>
+            <div class="w-full lg:w-1/2 pt-[60px] lg:pt-[270px]">
+              <div class="relative">
+                <img class="absolute w-[220px] right-[-120px] top-[-60px] block lg:hidden" src="./assets/img/details/Rabisco01.png" alt="">
+                <h1 class="text-[40px] lg:text-[60px] font-black relative after:content-[''] after:bg-[url('./assets/img/details/Linha.png')] after:bg-no-repeat after:w-full after:h-4 after:block after:absolute after:bottom-[-26px]">ESCOLAS</h1>
+              </div>
+              <p class="pt-[66px]">Neste ano letivo, abrangerá o Ensino Básico em <span class="text-[#E54500]">8 escolas</span> do concelho:</p>
+              <ul class="flex flex-col gap-5 pt-[50px] lg:pt-[50px]">
+                <li class="font-bold">EB23 PALMEIRA</li>
+                <li class="font-bold">EB23 GUALTAR</li>
+                <li class="font-bold">EB23 CELEIRÓS</li>
+                <li class="font-bold">EB23 TADIM</li>
+                <li class="font-bold">EB23 CABREIROS</li>
+                <li class="font-bold">EB23 CÁVADO</li>
+                <li class="font-bold">EB23 FREI CAETANO / ES MAXÍMINOS</li>
+                <li class="font-bold">EB23 NOGUEIRA</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="">
+        <div class="relative">
+          <img class="absolute left-[-60px] lg:left-[30px] lg:top-[-160px] z-30" src="./assets/img/details/Rabisco05.png" alt="">
+        </div>
+        <div class="container-box pt-[248px] lg:pt-[90px] pb-[210px] lg:pb-[90px]">
+          <div>
+            <div class="flex flex-col items-center justify-center">
+              <h1 class="w-full text-start lg:text-center text-[40px] lg:text-[60px]  w-max font-black relative after:content-[''] after:bg-[url('./assets/img/details/Linha.png')] after:bg-no-repeat after:w-full after:h-4 after:block after:absolute after:bottom-[-26px]">
+                LINHAS <br class=" block lg:hidden">E HORÁRIOS
+              </h1>
+              <div class="relative select-menu max-w-full lg:max-w-[348px] w-[348px] mt-16 mx-auto">
+                <div class="select-btn relative flex justify-between  p-5 py-[18px] pl-[55px]  m-w-full bg-[#E54500] hover:bg-[#0069AC] focus:bg-[#0069AC] transition-all duration-300 rounded-lg text-white tracking-[.1rem] appearance-none focus:outline-none cursor-pointer">
+                  <img class="absolute left-4 top-1/2 transform -translate-y-1/2" src="./assets/img/icons/Localização.svg" alt="">
+                  <span class="sBtn-text">SELECIONAR ESCOLA</span>
+                  <i id="seta-selecionar-escola" class="fa-solid fa-chevron-down absolute transition-transform duration-300 right-6 top-1/2 transform -translate-y-1/2 text-white"></i>
+                </div>
+                <ul class="options hidden absolute top-[44px] w-full p-5 bg-[#0069AC] rounded-b-lg shadow-lg z-40">
+                  <li class="option font-bold border-y border-[#1777B3] py-4 option-text text-base cursor-pointer text-white">EB23 PALMEIRA</li>
+                  <li class="option font-bold border-y border-[#1777B3] py-4 option-text text-base cursor-pointer text-white">EB23 GUALTAR</li>
+                  <li class="option font-bold border-y border-[#1777B3] py-4 option-text text-base cursor-pointer text-white">EB23 CELEIRÓS</li>
+                  <li class="option font-bold border-y border-[#1777B3] py-4 option-text text-base cursor-pointer text-white">EB23 TADIM</li>
+                  <li class="option font-bold border-y border-[#1777B3] py-4 option-text text-base cursor-pointer text-white">EB23 CABREIROS</li>
+                  <li class="option font-bold border-y border-[#1777B3] py-4 option-text text-base cursor-pointer text-white">EB23 CÁVADO</li>
+                  <li class="option font-bold border-y border-[#1777B3] py-4 option-text text-base cursor-pointer text-white">EB23 FREI CAETANO / ES MAXÍMINOS</li>
+                  <li class="option font-bold border-y border-[#1777B3] py-4 option-text text-base cursor-pointer text-white">EB23 NOGUEIRA</li>
+                </ul>
+              </div>
+              <div class="pt-10 lg:pt-20 w-full">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-4 w-full">
+                  <div class="menu-suspenso h-max bg-white rounded-lg shadow-[0_0_7px_rgba(0,0,0,0.75)]">
+                    <dt>
+                      <button
+                        class="toggleButton flex items-center w-full pb-[16px] pt-[9px] pl-[30px] pr-[10px] focus:outline-none"
+                        aria-expanded="false"
+                      >
+                        <img class="pr-8" src="./assets/img/icons/Bus.svg" alt="Ícone">
+                        <div class="flex-grow">
+                          <h2 class="text-3xl text-start text-[#E54500] font-black pt-4">300</h2>
+                          <p class="font-bold text-start text-start">2ª • 3ª • 4ª • 5ª • 6ª</p>
+                        </div>
+                        <img class="arrowIcon transition-transform duration-300" src="./assets/img/icons/Arrow.svg" alt="Seta">
+                      </button>
+                    </dt>
+                    <dd class="routes overflow-hidden max-h-0 transition-all duration-300 max-h-0">
+                      <div class="px-6 pb-7 ">
+                        <div class="border-t border-dashed border-[#0069AC] pt-[30px] flex">
+                          <div class="border-r-4  border-[#D9000D] pr-5 flex flex-col justify-between font-black">
+                            <h2 class="mt-[-5px]">07:25</h2>
+                            <h2 class="mb-[-8px]">08:15</h2>
+                          </div>
+                          <div class="pl-5">
+                            <ul class="text-sm route-list flex flex-col gap-[33px] my-[-5px]">
+                              <li class="font-black relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">
+                                SANTA LUCRÉCIA I
+                              </li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">REAIS I (PAÇO)</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">SENHOR PASSOS V (CRESPOS)</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">MATINHO</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">SENHOR PASSOS V (CRESPOS)</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">S. TIAGO II</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">IGREJA</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">SENHOR SOCORRO III</li>
+                              
+                              <li class="mb-[-8px] font-black relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">
+                                CIMO DE VILA (EB23 PALMEIRA)
+                              </li>                            
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </dd>
+                  </div>
+                  <div class="menu-suspenso h-max bg-white rounded-lg shadow-[0_0_7px_rgba(0,0,0,0.75)]">
+                    <dt>
+                      <button
+                        class="toggleButton flex items-center w-full pb-[16px] pt-[9px] pl-[30px] pr-[10px] focus:outline-none"
+                        aria-expanded="false"
+                      >
+                        <img class="pr-8" src="./assets/img/icons/Bus.svg" alt="Ícone">
+                        <div class="flex-grow">
+                          <h2 class="text-3xl text-start text-[#E54500] font-black pt-4">301</h2>
+                          <p class="font-bold text-start text-start">2ª • 3ª • 4ª • 5ª • 6ª</p>
+                        </div>
+                        <img class="arrowIcon transition-transform duration-300" src="./assets/img/icons/Arrow.svg" alt="Seta">
+                      </button>
+                    </dt>
+                    <dd class="routes overflow-hidden max-h-0 transition-all duration-300 max-h-0">
+                      <div class="px-6 pb-7 ">
+                        <div class="border-t border-dashed border-[#0069AC] pt-[30px] flex">
+                          <div class="border-r-4  border-[#D9000D] pr-5 flex flex-col justify-between font-black">
+                            <h2 class="mt-[-5px]">07:40</h2>
+                            <h2 class="mb-[-8px]">08:05</h2>
+                          </div>
+                          <div class="pl-5">
+                            <ul class="text-sm route-list flex flex-col gap-[33px] my-[-5px]">
+                              <li class="font-black relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">
+                                CARREGAL I (LIMITE 1/2)
+                              </li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">CARMO II</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">PATEIRA I</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">RECTA FEITAL I</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">S. ROSENDO (DUME)</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">REGO</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">MANUEL J MACHADO II</li>
+                              
+                              <li class="mb-[-8px] font-black relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">
+                                CIMO DE VILA (EB23 PALMEIRA)
+                              </li>                            
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </dd>
+                  </div><div class="menu-suspenso h-max bg-white rounded-lg shadow-[0_0_7px_rgba(0,0,0,0.75)]">
+                    <dt>
+                      <button
+                        class="toggleButton flex items-center w-full pb-[16px] pt-[9px] pl-[30px] pr-[10px] focus:outline-none"
+                        aria-expanded="false"
+                      >
+                        <img class="pr-8" src="./assets/img/icons/Bus.svg" alt="Ícone">
+                        <div class="flex-grow">
+                          <h2 class="text-3xl text-start text-[#E54500] font-black pt-4">300</h2>
+                          <p class="font-bold text-start text-start">2ª • 3ª • 4ª • 5ª • 6ª</p>
+                        </div>
+                        <img class="arrowIcon transition-transform duration-300" src="./assets/img/icons/Arrow.svg" alt="Seta">
+                      </button>
+                    </dt>
+                    <dd class="routes overflow-hidden max-h-0 transition-all duration-300 max-h-0">
+                      <div class="px-6 pb-7 ">
+                        <div class="border-t border-dashed border-[#0069AC] pt-[30px] flex">
+                          <div class="border-r-4  border-[#D9000D] pr-5 flex flex-col justify-between font-black">
+                            <h2 class="mt-[-5px]">07:25</h2>
+                            <h2 class="mb-[-8px]">08:15</h2>
+                          </div>
+                          <div class="pl-5">
+                            <ul class="text-sm route-list flex flex-col gap-[33px] my-[-5px]">
+                              <li class="font-black relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">
+                                SANTA LUCRÉCIA I
+                              </li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">REAIS I (PAÇO)</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">SENHOR PASSOS V (CRESPOS)</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">MATINHO</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">SENHOR PASSOS V (CRESPOS)</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">S. TIAGO II</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">IGREJA</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">SENHOR SOCORRO III</li>
+                              
+                              <li class="mb-[-8px] font-black relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">
+                                CIMO DE VILA (EB23 PALMEIRA)
+                              </li>                            
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </dd>
+                  </div>
+                  <div class="menu-suspenso h-max bg-white rounded-lg shadow-[0_0_7px_rgba(0,0,0,0.75)]">
+                    <dt>
+                      <button
+                        class="toggleButton flex items-center w-full pb-[16px] pt-[9px] pl-[30px] pr-[10px] focus:outline-none"
+                        aria-expanded="false"
+                      >
+                        <img class="pr-8" src="./assets/img/icons/Bus.svg" alt="Ícone">
+                        <div class="flex-grow">
+                          <h2 class="text-3xl text-start text-[#E54500] font-black pt-4">300</h2>
+                          <p class="font-bold text-start text-start">2ª • 3ª • 4ª • 5ª • 6ª</p>
+                        </div>
+                        <img class="arrowIcon transition-transform duration-300" src="./assets/img/icons/Arrow.svg" alt="Seta">
+                      </button>
+                    </dt>
+                    <dd class="routes overflow-hidden max-h-0 transition-all duration-300 max-h-0">
+                      <div class="px-6 pb-7 ">
+                        <div class="border-t border-dashed border-[#0069AC] pt-[30px] flex">
+                          <div class="border-r-4  border-[#D9000D] pr-5 flex flex-col justify-between font-black">
+                            <h2 class="mt-[-5px]">07:25</h2>
+                            <h2 class="mb-[-8px]">08:15</h2>
+                          </div>
+                          <div class="pl-5">
+                            <ul class="text-sm route-list flex flex-col gap-[33px] my-[-5px]">
+                              <li class="font-black relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">
+                                SANTA LUCRÉCIA I
+                              </li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">REAIS I (PAÇO)</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">SENHOR PASSOS V (CRESPOS)</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">MATINHO</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">SENHOR PASSOS V (CRESPOS)</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">S. TIAGO II</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">IGREJA</li>
+                              <li class="font-bold relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-white before:border-[3px] before:border-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">SENHOR SOCORRO III</li>
+                              
+                              <li class="mb-[-8px] font-black relative before:absolute inline-flex items-center before:content-[''] before:inline-block before:w-4 before:h-4 before:bg-[#D9000D] before:rounded-full before:left-[-30px] before:align-middle">
+                                CIMO DE VILA (EB23 PALMEIRA)
+                              </li>                            
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </dd>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-transparent lg:bg-[#0069AC] opacity-100 lg:opacity-70">
+      <section>
+        <div class="container-box py-6">
+          <div class="flex flex-col lg:flex-row justify-between items-center">
+            <div>
+              <p class="text-center lg:text-start text-[#0069AC] lg:text-white">TUB - Transportes Urbanos de Braga, 2023.<br>Todos os direitos reservados.</p>
+            </div>
+            <div class="pt-6 lg:pt-0">
+              <p class="text-[#0069AC] lg:text-white">made by</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="./assets/js/script.js" ></script>
+</body>
+</html>

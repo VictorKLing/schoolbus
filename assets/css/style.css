@@ -1,0 +1,85 @@
+body{
+  background-image: url('../img/details/Fundo Desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  overflow-x: hidden
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+h1, h2, p, li {
+  font-family: 'Satoshi';
+  font-weight: 400 ;
+  color: #0069AC;
+}
+/* Fonte */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/satoshi/OTF/Satoshi-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/satoshi/OTF/Satoshi-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/satoshi/OTF/Satoshi-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/satoshi/OTF/Satoshi-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/satoshi/OTF/Satoshi-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+/* Fonte */
+.container-box{
+  max-width: 1116px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+}
+.img-logo::after{
+  content: '';
+  position: absolute;
+  background-image: url('../img/details/Ano.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 210px;
+  height: 80px;
+  right: -140px;
+  top: -60px;
+}
+@media(max-width:1024px){
+  .img-logo::after{
+    right: 0px;
+    top: -80px;
+  }
+  .container-box{
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  
+}
+@media(max-width:767px){
+  .img-logo::after{
+    width: 180px;
+  }
+  body {
+    background-image: url('../img/details/Fundo Mobile.svg');
+  }
+}
