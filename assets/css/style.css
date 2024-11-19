@@ -82,5 +82,6 @@ h1, h2, p, li {
   }
   body {
     background-image: url('../img/details/Fundo Mobile.svg');
+    background-size: auto;
   }
 }
