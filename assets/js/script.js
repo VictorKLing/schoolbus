@@ -77,5 +77,3 @@ options.forEach(option => {
     seta.classList.toggle('rotate-180');
   });
 });
-
-
