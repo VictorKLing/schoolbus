@@ -630,6 +630,14 @@ video {
   top: 44px;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
 .z-30 {
   z-index: 30;
 }
@@ -1236,11 +1244,6 @@ video {
 .after\:w-full::after {
   content: var(--tw-content);
   width: 100%;
-}
-
-.after\:bg-\[url\(\'\.\/img\/details\/Linha\.png\'\)\]::after {
-  content: var(--tw-content);
-  background-image: url('./img/details/Linha.png');
 }
 
 .after\:bg-\[url\(\'\.\/assets\/img\/details\/Linha\.png\'\)\]::after {

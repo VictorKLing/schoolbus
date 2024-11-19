@@ -81,7 +81,19 @@ h1, h2, p, li {
     width: 180px;
   }
   body {
-    background-image: url('../img/details/Fundo Mobile.svg');
-    background-repeat: repeat-x;
+    background-image: none;
   }
+  .bg-mobile{
+    position: fixed;
+    background-image: url('../img/details/Fundo Mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+   }
 }
+
+
