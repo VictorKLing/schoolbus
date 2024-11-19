@@ -26,7 +26,7 @@ const popupContent = document.querySelector('#popup-content')
 
 //exibe o popup quando abrir o site
 addEventListener('DOMContentLoaded', () => {
-  setTimeout(() => {
+  zsetTimeout(() => {
     popup.classList.remove('hidden')
     const popupAtivo = !popup.classList.contains('hidden');
     if(popupAtivo){
@@ -76,4 +76,10 @@ options.forEach(option => {
     selectBtn.classList.replace('bg-[#0069AC]', 'bg-[#E54500]');
     seta.classList.toggle('rotate-180');
   });
+});
+
+
+// bg fixo para ios
+document.addEventListener("scroll", function(){
+  document.querySelector("body").style.backgroundPosition = '0 '+window.pageYOffset+'px';
 });
